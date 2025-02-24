@@ -118,7 +118,7 @@ const AboutSection: React.FC = () => {
   const languageSkills: LanguageSkill[] = [
     { language: "English", proficiency: "Fluent" },
     { language: "Hindi", proficiency: "Native" },
-    { language: "Gujarati", proficiency: "Native" }
+    { language: "Bhojpuri", proficiency: "Native" }
   ];
 
   const interestsList: InterestEntry[] = [
