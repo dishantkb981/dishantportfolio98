@@ -418,22 +418,37 @@ const Achievements: React.FC = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+<<<<<<< HEAD
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 text-center bg-gradient-to-r from-[#00ff88] to-[#00ffcc] text-transparent bg-clip-text"
+=======
+          className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-[#00ff88] to-[#00ffcc] text-transparent bg-clip-text"
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
         >
           Achievements
         </motion.h1>
 
         {/* CTF Competitions Section */}
         <motion.div 
+<<<<<<< HEAD
           className="mb-8 sm:mb-12"
+=======
+          className="mb-12"
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
+<<<<<<< HEAD
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4 sm:mb-6 text-[#00ff88] text-center">
             CTF Played
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+=======
+          <h2 className="text-3xl font-semibold mb-6 text-[#00ff88] text-center">
+            CTF Played
+          </h2>
+          <div className="grid md:grid-cols-3 gap-4">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
             {ctfEvents.map((event, index) => (
               <AnimatedCard 
                 key={index}
@@ -453,10 +468,17 @@ const Achievements: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
+<<<<<<< HEAD
           <h2 className="text-2xl sm:text-3xl font-semibold mb-4 sm:mb-6 text-[#00ffcc] text-center">
             Events Attended
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+=======
+          <h2 className="text-3xl font-semibold mb-6 text-[#00ffcc] text-center">
+            Events Attended
+          </h2>
+          <div className="grid md:grid-cols-3 gap-4">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
             {eventsAttended.map((event, index) => (
               <AnimatedCard 
                 key={index}
@@ -474,4 +496,7 @@ const Achievements: React.FC = () => {
 };
 
 export default Achievements;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)

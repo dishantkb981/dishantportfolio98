@@ -45,10 +45,17 @@ const Navigation = memo(function Navigation({ activeSection, onSectionChange }: 
         duration: 0.3,
         ease: "easeOut"
       }}
+<<<<<<< HEAD
       className="fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50 mb-8 w-auto"
     >
       <div className="bg-black/70 backdrop-blur-lg rounded-full p-2 sm:p-3 border border-[#00ff88]/20 shadow-[0_0_20px_rgba(0,255,136,0.3)] mx-auto">
         <div className="flex items-center justify-center gap-2 sm:gap-4">
+=======
+      className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 w-auto"
+    >
+      <div className="bg-black/70 backdrop-blur-lg rounded-full p-2 border border-[#00ff88]/20 shadow-[0_0_20px_rgba(0,255,136,0.3)]">
+        <div className="flex items-center gap-4">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
           {navItems.map(({ icon: Icon, label, color }) => (
             <motion.button
               key={label}
@@ -65,6 +72,7 @@ const Navigation = memo(function Navigation({ activeSection, onSectionChange }: 
                 style={{ backgroundColor: color }}
               />
               <div 
+<<<<<<< HEAD
                 className={`relative p-2 sm:p-3 bg-transparent rounded-full border border-[#00ff88]/30 hover:border-[#00ff88]/60 transition-all duration-300 
                   ${activeSection === label ? 'border-[#00ff88]' : ''}`}
               >
@@ -73,6 +81,15 @@ const Navigation = memo(function Navigation({ activeSection, onSectionChange }: 
                   className={`
                     transition-colors duration-300
                     sm:w-5 sm:h-5
+=======
+                className={`relative p-3 bg-transparent rounded-full border border-[#00ff88]/30 hover:border-[#00ff88]/60 transition-all duration-300 
+                  ${activeSection === label ? 'border-[#00ff88]' : ''}`}
+              >
+                <Icon 
+                  size={20} 
+                  className={`
+                    transition-colors duration-300
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
                     ${activeSection === label ? 'text-white' : 'text-[#00ff88] group-hover:text-white'}
                   `}
                 />

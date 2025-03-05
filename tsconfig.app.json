@@ -13,6 +13,10 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+<<<<<<< HEAD
+=======
+    "typeRoots": ["node_modules/@types", "node_modules/lucide-react/dist"],
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
 
     /* Linting */
     "strict": true,

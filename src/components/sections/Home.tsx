@@ -12,6 +12,33 @@ import {
   Crosshair 
 } from 'lucide-react';
 import ParticleBackground from '../ParticleBackground';
+<<<<<<< HEAD
+=======
+import styled, { keyframes } from 'styled-components';
+
+const typing = keyframes`
+  from { width: 0 }
+  to { width: 100% }
+`;
+
+const blinkCaret = keyframes`
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+`;
+
+const TypewriterText = styled.h1`
+  overflow: visible;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  font-size: 1.5rem;
+  animation: 
+    ${typing} 3.5s steps(40, end),
+    ${blinkCaret} .75s step-end infinite;
+  animation-iteration-count: infinite;
+`;
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
 
 const SpecialtyCard: React.FC<{
   icon: React.ElementType;
@@ -250,6 +277,7 @@ const Home: React.FC = () => {
             Dishant Vishwakarma
           </motion.h1>
           
+<<<<<<< HEAD
           {/* Subtitle with Hover and Glowing Effects */}
           <motion.p
             initial={{ 
@@ -320,6 +348,17 @@ const Home: React.FC = () => {
             />
             Cybersecurity Enthusiast | Penetration Tester | Ethical Hacker
           </motion.p>
+=======
+          {/* Subtitle */}
+          <motion.h1
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+            className="text-2xl font-bold text-[#00ff88]"
+          >
+            Cybersecurity Enthusiast | Penetration Tester | Ethical Hacking
+          </motion.h1>
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
 
           <div className="flex items-center space-x-4">
             {socialLinks.map((social, index) => (
@@ -381,7 +420,11 @@ const Home: React.FC = () => {
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ 
                     opacity: [0, 0.2, 0.4, 0.2, 0],
+<<<<<<< HEAD
                     scale: [0.9, 1.1, 0.95, 1, 0.8]
+=======
+                    scale: [0.9, 1.1, 0.95, 1]
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
                   }}
                   transition={{
                     duration: 4,

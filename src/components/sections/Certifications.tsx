@@ -267,7 +267,11 @@ const Certifications: React.FC = () => {
       date: "2023",
       icon: Shield,
       color: "#00ff88",
+<<<<<<< HEAD
       logo: "/cert-logos/capt.png",
+=======
+      logo: "public/CAPT.webp",
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
       description: "Advanced penetration testing certification demonstrating comprehensive security assessment skills.",
       skills: [
         "Mobile Application Reverse Engineering",
@@ -331,6 +335,7 @@ const Certifications: React.FC = () => {
   const otherCertifications: Certification[] = [
     {
       name: "Advent Cyber 2022",
+<<<<<<< HEAD
       issuer: "TryHackMe",
       date: "2022",
       icon: Shield,
@@ -361,6 +366,38 @@ const Certifications: React.FC = () => {
       description: "Cutting-edge cybersecurity challenge event exploring emerging security technologies and techniques.",
       skills: ["Emerging Security Trends", "Cyber Defense", "Penetration Testing"],
       verificationLink: "#"
+=======
+      issuer: "Advent Cyber",
+      date: "2022",
+      icon: Shield,
+      color: "#ffcc00",
+      logo: "public/Advent 2022.webp",
+      description: "Certification demonstrating skills in cybersecurity practices.",
+      skills: ["Cybersecurity Fundamentals", "Threat Analysis", "Incident Response"],
+      verificationLink: "https://drive.google.com/file/d/1PbXFWv-8FRERinmvVRH6IIXp_0uf60Ti/view?usp=drive_link"
+    },
+    {
+      name: "Advent Cyber 2023",
+      issuer: "Advent Cyber",
+      date: "2023",
+      icon: Shield,
+      color: "#ffcc00",
+      logo: "public/advent 2023.webp",
+      description: "Certification demonstrating skills in cybersecurity practices.",
+      skills: ["Cybersecurity Fundamentals", "Threat Analysis", "Incident Response"],
+      verificationLink: "https://drive.google.com/file/d/1Mlb7DbWw7h3jPz2zEOrWUmWq2vF7se5M/view?usp=drive_link"
+    },
+    {
+      name: "Advent Cyber 2024",
+      issuer: "Advent Cyber",
+      date: "2024",
+      icon: Shield,
+      color: "#ffcc00",
+      logo: "public/advnt 2024.webp",
+      description: "Certification demonstrating skills in advanced cybersecurity practices.",
+      skills: ["Advanced Cybersecurity Techniques", "Incident Response", "Threat Intelligence"],
+      verificationLink: "https://drive.google.com/file/d/13ZQkrOz8Y2rNMvjnbG3fxkQUC0wChR55/view?usp=drive_link",
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
     },
     {
       name: "MetaCTF",
@@ -368,10 +405,17 @@ const Certifications: React.FC = () => {
       date: "2023",
       icon: Award,
       color: "#673AB7",
+<<<<<<< HEAD
       logo: "/cert-logos/metactf.png",
       description: "Capture The Flag competition hosted by Meta, testing advanced cybersecurity skills and problem-solving.",
       skills: ["CTF Challenges", "Reverse Engineering", "Cryptography"],
       verificationLink: "#"
+=======
+      logo: "public/MEta.webp",
+      description: "Capture The Flag competition hosted by Meta, testing advanced cybersecurity skills and problem-solving.",
+      skills: ["CTF Challenges", "Reverse Engineering", "Cryptography"],
+      verificationLink: "https://drive.google.com/file/d/1ImhantHyEamoqbeCVVoJnuAX3JPugQ1P/view?usp=drive_link",
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
     }
   ];
 

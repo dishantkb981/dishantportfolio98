@@ -105,7 +105,11 @@ const Contact: React.FC = () => {
                 <Mail className={`${isHovered.contactCard ? 'text-blue-300' : 'text-blue-400'} w-10 h-10 transition-colors`} />
                 <div>
                   <h3 className="text-xl font-semibold text-white">Email</h3>
+<<<<<<< HEAD
                   <p className="text-gray-300">contact@yourdomain.com</p>
+=======
+                  <p className="text-gray-300">vishwakarmadishant4@gmail.com</p>
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
                 </div>
               </motion.div>
               <motion.div 

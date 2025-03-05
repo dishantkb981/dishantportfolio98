@@ -50,7 +50,11 @@ interface LanguageSkill {
 const AboutSection: React.FC = () => {
   const personalInfo: PersonalInfo = {
     name: "Dishant Vishwakarma",
+<<<<<<< HEAD
     profilePic: "/profile-pic.jpg",
+=======
+    profilePic: "public/Dish.jpg",
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
     location: "Vadodara, Gujarat, India",
     email: "vishwakarmadishant4@gmail.com",
     phone: "+91 7204326781"
@@ -100,6 +104,7 @@ const AboutSection: React.FC = () => {
     }
   ];
 
+<<<<<<< HEAD
   const technicalSkills = [
     {
       category: "Programming Languages",
@@ -119,6 +124,12 @@ const AboutSection: React.FC = () => {
     { language: "English", proficiency: "Fluent" },
     { language: "Hindi", proficiency: "Native" },
     { language: "Gujarati", proficiency: "Native" }
+=======
+  const languageSkills: LanguageSkill[] = [
+    { language: "English", proficiency: "Fluent" },
+    { language: "Hindi", proficiency: "Native" },
+    { language: "Bhojpuri", proficiency: "Native" }
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
   ];
 
   const interestsList: InterestEntry[] = [
@@ -133,11 +144,14 @@ const AboutSection: React.FC = () => {
       icon: Laptop
     },
     {
+<<<<<<< HEAD
       title: "Reading Novels",
       description: "I take great pleasure in reading works of fiction, as it serves to augment my imaginative capabilities.",
       icon: Book
     },
     {
+=======
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
       title: "Technical Writing",
       description: "I recently started to write descriptive blogs about what I learned, mostly related to security, on Medium.",
       icon: Code
@@ -199,12 +213,21 @@ const AboutSection: React.FC = () => {
           initial={{ opacity: 0 }}
           animate={{ 
             opacity: isHovered ? 0.3 : 0,
+<<<<<<< HEAD
             background: `radial-gradient(circle at center, ${color}30 0%, transparent 70%)`
+=======
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
           }}
           transition={{ 
             duration: 0.5,
             type: "tween"
           }}
+<<<<<<< HEAD
+=======
+          style={{ 
+            background: `radial-gradient(circle at center, ${color}30 0%, transparent 70%)`
+          }}
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
           className="absolute inset-0 rounded-2xl blur-3xl -z-10 transform-gpu"
         />
 
@@ -261,17 +284,29 @@ const AboutSection: React.FC = () => {
         }}
       />
 
+<<<<<<< HEAD
       <div className="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
+=======
+      <div className="container mx-auto relative z-10">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
         <motion.h1 
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+<<<<<<< HEAD
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 text-center bg-gradient-to-r from-[#00ff88] to-[#00ffcc] text-transparent bg-clip-text"
+=======
+          className="text-5xl font-bold mb-12 text-center bg-gradient-to-r from-[#00ff88] to-[#00ffcc] text-transparent bg-clip-text"
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
         >
           About Me
         </motion.h1>
 
+<<<<<<< HEAD
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+=======
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
           {/* Personal Info Card */}
           <CardWrapper 
             color="#00ff88" 
@@ -279,7 +314,11 @@ const AboutSection: React.FC = () => {
             icon={MapPin}
           >
             <div className="flex flex-col items-center">
+<<<<<<< HEAD
               <div className="mb-3 sm:mb-4 w-20 sm:w-24 h-20 sm:h-24 rounded-full overflow-hidden border-2 border-[#00ff88]">
+=======
+              <div className="mb-4 w-24 h-24 rounded-full overflow-hidden border-2 border-[#00ff88]">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
                 <img 
                   src={personalInfo.profilePic} 
                   alt={`${personalInfo.name} Profile`} 
@@ -291,8 +330,13 @@ const AboutSection: React.FC = () => {
                   }}
                 />
               </div>
+<<<<<<< HEAD
               <h3 className="text-base sm:text-lg font-bold text-[#00ff88] mb-1">{personalInfo.name}</h3>
               <div className="text-center text-xs sm:text-sm space-y-1">
+=======
+              <h3 className="text-lg font-bold text-[#00ff88] mb-1">{personalInfo.name}</h3>
+              <div className="text-center text-xs space-y-1">
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
                 <p>{personalInfo.location}</p>
                 <p>{personalInfo.email}</p>
                 <p>{personalInfo.phone}</p>
@@ -392,4 +436,7 @@ const AboutSection: React.FC = () => {
 };
 
 export default AboutSection;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2574ff6 (Initial commit: Upload portfolio website)
